@@ -1,0 +1,45 @@
+{
+  "homepage": "http://Sirarpy.github.io/searching_rjs",
+  "name": "search_in_rjs",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "search system test",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sirarpy/searching_rjs"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "prettier": "^1.17.1",
+    "react-scripts": "^3.0.1"
+  },
+  "dependencies": {
+    "clipboard": "^2.0.4",
+    "github-fork-ribbon-css": "^0.2.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
